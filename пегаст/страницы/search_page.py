@@ -168,7 +168,7 @@ class Search_page(Base):   # класс login_page стал потомком к�
              self.get_currency().click()
 
          self.get_button_search().click()      # нажимаем кнопку Найти
-
+         time.sleep(2)
 
          self.get_price().click()    # выбор отеля для бронирования
 
